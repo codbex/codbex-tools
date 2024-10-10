@@ -85,3 +85,7 @@ This script generates a "galaxy-like" dependency tree for repositories based on 
 The output will be a visual graph saved as an SVG file. Repositories are shown as circular nodes, and their dependencies are linked as ellipses, resulting in a galaxy-like layout that is easy to understand at a glance.
 
 ---
+
+![galaxy_dependency_tree](https://github.com/user-attachments/assets/0b199374-914d-45c2-a330-02c82a5509c4)
+
+
