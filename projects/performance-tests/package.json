@@ -1,0 +1,12 @@
+{
+    "name": "performance-tests",
+    "scripts": {
+        "build": "tsc",
+        "test:performance": "k6 run build/hello-world.js",
+        "test:performance-cloud": "k6 run --out=cloud build/hello-world.js",
+        "test:performance-cloud-run": "k6 cloud build/hello-world.js --include-system-env-vars"
+    },
+    "devDependencies": {
+        "@types/k6": "^0.47.1"
+    }
+}

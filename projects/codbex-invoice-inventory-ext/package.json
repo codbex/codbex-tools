@@ -1,0 +1,11 @@
+{
+    "name": "@codbex/codbex-invoice-inventory-ext",
+    "version": "0.2.0",
+    "repository": {
+        "url": "https://github.com/codbex/codbex-invoice-inventory-ext.git",
+        "type": "git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}

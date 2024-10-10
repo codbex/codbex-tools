@@ -1,0 +1,346 @@
+// Galaxy Dependency Tree
+graph {
+	graph [overlap=scale splines=true]
+	"abap-samples" [label="abap-samples (1.0.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	buffer [label="buffer (^6.0.3)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"abap-samples" -- buffer
+	"@abaplint/runtime" [label="@abaplint/runtime (^2.10.9)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"abap-samples" -- "@abaplint/runtime"
+	"@abaplint/cli" [label="@abaplint/cli (^2.112.17)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"abap-samples" -- "@abaplint/cli"
+	"@abaplint/transpiler-cli" [label="@abaplint/transpiler-cli (^2.10.9)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"abap-samples" -- "@abaplint/transpiler-cli"
+	"angular.js" [label="angular.js (unknown)" fillcolor="#ffcc00" shape=circle style=filled]
+	audit [label="audit (0.1.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@amcharts/amcharts4" [label="@amcharts/amcharts4 (^4.10.12)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "@amcharts/amcharts4"
+	"@mdi/font" [label="@mdi/font (5.9.55)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "@mdi/font"
+	"@v-charts2/heatmap" [label="@v-charts2/heatmap (^1.0.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "@v-charts2/heatmap"
+	amcharts [label="amcharts (^3.14.5)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- amcharts
+	apexcharts [label="apexcharts (^3.22.3)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- apexcharts
+	autoprefixer [label="autoprefixer (10.4.5)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- autoprefixer
+	axios [label="axios (^0.27.2)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- axios
+	"chart.js" [label="chart.js (^3.7.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "chart.js"
+	"chartjs-plugin-datalabels" [label="chartjs-plugin-datalabels (^2.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "chartjs-plugin-datalabels"
+	"core-js" [label="core-js (^3.8.3)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "core-js"
+	d3 [label="d3 (^7.6.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- d3
+	"date-format-parse" [label="date-format-parse (^0.2.7)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "date-format-parse"
+	echarts [label="echarts (4.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- echarts
+	"git-describe" [label="git-describe (^4.1.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "git-describe"
+	leaflet [label="leaflet (^1.8.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- leaflet
+	"leaflet-extra-markers" [label="leaflet-extra-markers (^1.2.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "leaflet-extra-markers"
+	"leaflet.heat" [label="leaflet.heat (^0.2.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "leaflet.heat"
+	"leaflet.icon.glyph" [label="leaflet.icon.glyph (^0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "leaflet.icon.glyph"
+	moment [label="moment (^2.29.4)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- moment
+	"raw-loader" [label="raw-loader (^4.0.2)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "raw-loader"
+	"roboto-fontface" [label="roboto-fontface (*)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "roboto-fontface"
+	stream [label="stream (^0.0.2)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- stream
+	"v-charts" [label="v-charts (1.19.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "v-charts"
+	vue [label="vue (^2.6.14)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- vue
+	"vue-2-dropdown" [label="vue-2-dropdown (^1.0.9)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-2-dropdown"
+	"vue-apexcharts" [label="vue-apexcharts (1.6.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-apexcharts"
+	"vue-chartjs" [label="vue-chartjs (^4.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-chartjs"
+	"vue-date-dropdown" [label="vue-date-dropdown (^1.0.5)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-date-dropdown"
+	"vue-datepicker-ui" [label="vue-datepicker-ui (^2.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-datepicker-ui"
+	"vue-dropdowns" [label="vue-dropdowns (^1.1.2)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-dropdowns"
+	"vue-echarts" [label="vue-echarts (4.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-echarts"
+	"vue-heatmapjs" [label="vue-heatmapjs (^1.5.0-0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-heatmapjs"
+	"vue-mc" [label="vue-mc (^0.6.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-mc"
+	"vue-moment" [label="vue-moment (^4.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-moment"
+	"vue-native-websocket" [label="vue-native-websocket (^2.0.15)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-native-websocket"
+	"vue-router" [label="vue-router (^3.5.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-router"
+	"vue-simple-search-dropdown" [label="vue-simple-search-dropdown (^1.0.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-simple-search-dropdown"
+	"vue-slim-stackedbar" [label="vue-slim-stackedbar (^0.1.9)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-slim-stackedbar"
+	"vue-tables-2" [label="vue-tables-2 (^2.3.5)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-tables-2"
+	"vue-tour" [label="vue-tour (^2.0.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue-tour"
+	"vue2-datepicker" [label="vue2-datepicker (^3.11.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue2-datepicker"
+	"vue2-daterange-picker" [label="vue2-daterange-picker (^0.6.8)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue2-daterange-picker"
+	"vue2-leaflet" [label="vue2-leaflet (^2.7.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue2-leaflet"
+	"vue2-leaflet-draw-toolbar" [label="vue2-leaflet-draw-toolbar (^0.1.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vue2-leaflet-draw-toolbar"
+	vuetify [label="vuetify (^2.6.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- vuetify
+	"vuetify-confirm" [label="vuetify-confirm (^2.0.6)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vuetify-confirm"
+	"vuetify-upload-button" [label="vuetify-upload-button (^2.0.2)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "vuetify-upload-button"
+	vuex [label="vuex (^3.6.2)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- vuex
+	"xml-js" [label="xml-js (^1.6.11)" fillcolor="#99ccff" shape=ellipse style=filled]
+	audit -- "xml-js"
+	"aws-cdk" [label="aws-cdk (0.1.3)" fillcolor="#ffcc00" shape=circle style=filled]
+	"bw-migration" [label="bw-migration (1.0.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-accounts" [label="codbex-accounts (0.2.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-appointments" [label="codbex-appointments (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-orders" [label="@codbex/codbex-orders (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-appointments" -- "@codbex/codbex-orders"
+	"codbex-athena-dashboard" [label="codbex-athena-dashboard (0.1.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-athena-data-sample" [label="codbex-athena-data-sample (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-bids" [label="codbex-bids (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-products" [label="@codbex/codbex-products (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-bids" -- "@codbex/codbex-products"
+	"@codbex/codbex-partners" [label="@codbex/codbex-partners (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-bids" -- "@codbex/codbex-partners"
+	"@codbex/codbex-currencies" [label="@codbex/codbex-currencies (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-bids" -- "@codbex/codbex-currencies"
+	"@codbex/codbex-uoms" [label="@codbex/codbex-uoms (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-bids" -- "@codbex/codbex-uoms"
+	"@codbex/codbex-countries" [label="@codbex/codbex-countries (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-bids" -- "@codbex/codbex-countries"
+	"codbex-branding" [label="codbex-branding (0.1.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-cities" [label="codbex-cities (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-countries" [label="@codbex/codbex-countries (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-cities" -- "@codbex/codbex-countries"
+	"codbex-cluster" [label="codbex-cluster (0.1.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-companies" [label="codbex-companies (0.4.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-countries" [label="@codbex/codbex-countries (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-companies" -- "@codbex/codbex-countries"
+	"@codbex/codbex-cities" [label="@codbex/codbex-cities (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-companies" -- "@codbex/codbex-cities"
+	"codbex-contracts" [label="codbex-contracts (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-companies" [label="@codbex/codbex-companies (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-contracts" -- "@codbex/codbex-companies"
+	"codbex-countries" [label="codbex-countries (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-currencies" [label="codbex-currencies (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-employees" [label="codbex-employees (0.4.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-hermes" [label="codbex-hermes (unknown)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-hermes" [label="@codbex/codbex-hermes (0.1.2)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hermes" -- "@codbex/codbex-hermes"
+	"@codbex/codbex-orders" [label="@codbex/codbex-orders (0.2.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hermes" -- "@codbex/codbex-orders"
+	"@codbex/codbex-orders-data" [label="@codbex/codbex-orders-data (0.2.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hermes" -- "@codbex/codbex-orders-data"
+	"@codbex/ide-branding" [label="@codbex/ide-branding (0.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hermes" -- "@codbex/ide-branding"
+	"@codbex/codbex-hermes-data-sample" [label="@codbex/codbex-hermes-data-sample (0.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hermes" -- "@codbex/codbex-hermes-data-sample"
+	"@codbex/codbex-opportunities" [label="@codbex/codbex-opportunities (0.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hermes" -- "@codbex/codbex-opportunities"
+	"@codbex/codbex-opportunities-data" [label="@codbex/codbex-opportunities-data (0.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hermes" -- "@codbex/codbex-opportunities-data"
+	"@codbex/codbex-contracts" [label="@codbex/codbex-contracts (0.1.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hermes" -- "@codbex/codbex-contracts"
+	"@codbex/codbex-contracts-data" [label="@codbex/codbex-contracts-data (0.1.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hermes" -- "@codbex/codbex-contracts-data"
+	"codbex-hermes-dashboard" [label="codbex-hermes-dashboard (0.1.2)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-hermes-data-sample" [label="codbex-hermes-data-sample (0.1.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-hestia" [label="codbex-hestia (unknown)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-hestia" [label="@codbex/codbex-hestia (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-hestia"
+	"@codbex/codbex-inventory" [label="@codbex/codbex-inventory (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-inventory"
+	"@codbex/codbex-orders" [label="@codbex/codbex-orders (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-orders"
+	"@codbex/codbex-invoices" [label="@codbex/codbex-invoices (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-invoices"
+	"@codbex/codbex-products" [label="@codbex/codbex-products (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-products"
+	"@codbex/codbex-order-inventory-ext" [label="@codbex/codbex-order-inventory-ext (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-order-inventory-ext"
+	"@codbex/codbex-order-invoice-ext" [label="@codbex/codbex-order-invoice-ext (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-order-invoice-ext"
+	"@codbex/codbex-invoice-inventory-ext" [label="@codbex/codbex-invoice-inventory-ext (0.2.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-invoice-inventory-ext"
+	"@codbex/codbex-payment-invoice-ext" [label="@codbex/codbex-payment-invoice-ext (0.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-payment-invoice-ext"
+	"@codbex/codbex-payment-order-ext" [label="@codbex/codbex-payment-order-ext (0.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-payment-order-ext"
+	"@codbex/codbex-order-payment-ext" [label="@codbex/codbex-order-payment-ext (0.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-order-payment-ext"
+	"@codbex/codbex-hestia-print" [label="@codbex/codbex-hestia-print (0.2.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-hestia-print"
+	"@codbex/ide-branding" [label="@codbex/ide-branding (0.1.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/ide-branding"
+	"@codbex/codbex-hestia-data-sample" [label="@codbex/codbex-hestia-data-sample (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-hestia" -- "@codbex/codbex-hestia-data-sample"
+	"codbex-hestia-dashboard" [label="codbex-hestia-dashboard (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-hestia-data-sample" [label="codbex-hestia-data-sample (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-hestia-print" [label="codbex-hestia-print (0.2.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-hestia-randddesign" [label="codbex-hestia-randddesign (0.1.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-industries" [label="codbex-industries (0.2.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-inventory" [label="codbex-inventory (0.5.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-cities" [label="@codbex/codbex-cities (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-inventory" -- "@codbex/codbex-cities"
+	"@codbex/codbex-countries" [label="@codbex/codbex-countries (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-inventory" -- "@codbex/codbex-countries"
+	"@codbex/codbex-companies" [label="@codbex/codbex-companies (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-inventory" -- "@codbex/codbex-companies"
+	"@codbex/codbex-products" [label="@codbex/codbex-products (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-inventory" -- "@codbex/codbex-products"
+	"@codbex/codbex-currencies" [label="@codbex/codbex-currencies (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-inventory" -- "@codbex/codbex-currencies"
+	"codbex-invoice-inventory-ext" [label="codbex-invoice-inventory-ext (0.2.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-invoices" [label="codbex-invoices (0.5.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-countries" [label="@codbex/codbex-countries (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-countries"
+	"@codbex/codbex-companies" [label="@codbex/codbex-companies (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-companies"
+	"@codbex/codbex-currencies" [label="@codbex/codbex-currencies (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-currencies"
+	"@codbex/codbex-uoms" [label="@codbex/codbex-uoms (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-uoms"
+	"@codbex/codbex-partners" [label="@codbex/codbex-partners (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-partners"
+	"@codbex/codbex-methods" [label="@codbex/codbex-methods (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-methods"
+	"@codbex/codbex-employees" [label="@codbex/codbex-employees (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-employees"
+	"@codbex/codbex-products" [label="@codbex/codbex-products (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-products"
+	"@codbex/codbex-payments" [label="@codbex/codbex-payments (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-payments"
+	"@codbex/codbex-cities" [label="@codbex/codbex-cities (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-cities"
+	"@codbex/codbex-number-generator" [label="@codbex/codbex-number-generator (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-invoices" -- "@codbex/codbex-number-generator"
+	"codbex-kronos" [label="codbex-kronos (1.0.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	buffer [label="buffer (^6.0.3)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-kronos" -- buffer
+	"@abaplint/runtime" [label="@abaplint/runtime (^2.10.9)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-kronos" -- "@abaplint/runtime"
+	"@abaplint/cli" [label="@abaplint/cli (^2.112.17)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-kronos" -- "@abaplint/cli"
+	"@abaplint/transpiler-cli" [label="@abaplint/transpiler-cli (^2.10.9)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-kronos" -- "@abaplint/transpiler-cli"
+	"codbex-methods" [label="codbex-methods (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-number-generator" [label="codbex-number-generator (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-number-generator-data" [label="codbex-number-generator-data (0.2.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-opportunities" [label="codbex-opportunities (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-products" [label="@codbex/codbex-products (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-opportunities" -- "@codbex/codbex-products"
+	"@codbex/codbex-partners" [label="@codbex/codbex-partners (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-opportunities" -- "@codbex/codbex-partners"
+	"@codbex/codbex-employees" [label="@codbex/codbex-employees (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-opportunities" -- "@codbex/codbex-employees"
+	"@codbex/codbex-currencies" [label="@codbex/codbex-currencies (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-opportunities" -- "@codbex/codbex-currencies"
+	"@codbex/codbex-uoms" [label="@codbex/codbex-uoms (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-opportunities" -- "@codbex/codbex-uoms"
+	"@codbex/codbex-orders" [label="@codbex/codbex-orders (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-opportunities" -- "@codbex/codbex-orders"
+	"@codbex/codbex-industries" [label="@codbex/codbex-industries (0.2.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-opportunities" -- "@codbex/codbex-industries"
+	"@codbex/codbex-number-generator" [label="@codbex/codbex-number-generator (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-opportunities" -- "@codbex/codbex-number-generator"
+	"codbex-order-inventory-ext" [label="codbex-order-inventory-ext (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-order-invoice-ext" [label="codbex-order-invoice-ext (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-order-payment-ext" [label="codbex-order-payment-ext (0.1.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-orders" [label="codbex-orders (0.5.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-products" [label="@codbex/codbex-products (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-orders" -- "@codbex/codbex-products"
+	"@codbex/codbex-partners" [label="@codbex/codbex-partners (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-orders" -- "@codbex/codbex-partners"
+	"@codbex/codbex-employees" [label="@codbex/codbex-employees (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-orders" -- "@codbex/codbex-employees"
+	"@codbex/codbex-currencies" [label="@codbex/codbex-currencies (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-orders" -- "@codbex/codbex-currencies"
+	"@codbex/codbex-methods" [label="@codbex/codbex-methods (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-orders" -- "@codbex/codbex-methods"
+	"@codbex/codbex-cities" [label="@codbex/codbex-cities (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-orders" -- "@codbex/codbex-cities"
+	"@codbex/codbex-payments" [label="@codbex/codbex-payments (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-orders" -- "@codbex/codbex-payments"
+	"@codbex/codbex-number-generator" [label="@codbex/codbex-number-generator (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-orders" -- "@codbex/codbex-number-generator"
+	"codbex-partners" [label="codbex-partners (0.4.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-payment-invoice-ext" [label="codbex-payment-invoice-ext (0.1.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-payment-order-ext" [label="codbex-payment-order-ext (0.1.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-payroll-payment-ext" [label="codbex-payroll-payment-ext (unknown)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-products" [label="codbex-products (0.5.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-uoms" [label="@codbex/codbex-uoms (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-products" -- "@codbex/codbex-uoms"
+	"@codbex/codbex-companies" [label="@codbex/codbex-companies (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-products" -- "@codbex/codbex-companies"
+	"@codbex/codbex-partners" [label="@codbex/codbex-partners (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-products" -- "@codbex/codbex-partners"
+	"codbex-rfqs" [label="codbex-rfqs (0.3.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@codbex/codbex-products" [label="@codbex/codbex-products (0.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-rfqs" -- "@codbex/codbex-products"
+	"@codbex/codbex-partners" [label="@codbex/codbex-partners (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-rfqs" -- "@codbex/codbex-partners"
+	"@codbex/codbex-currencies" [label="@codbex/codbex-currencies (0.3.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-rfqs" -- "@codbex/codbex-currencies"
+	"@codbex/codbex-uoms" [label="@codbex/codbex-uoms (0.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-rfqs" -- "@codbex/codbex-uoms"
+	"codbex-salaries" [label="codbex-salaries (unknown)" fillcolor="#ffcc00" shape=circle style=filled]
+	"codbex-sample-abap-employees" [label="codbex-sample-abap-employees (1.0.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	buffer [label="buffer (^6.0.3)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-sample-abap-employees" -- buffer
+	"@abaplint/runtime" [label="@abaplint/runtime (^2.8.27)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-sample-abap-employees" -- "@abaplint/runtime"
+	"@abaplint/cli" [label="@abaplint/cli (^2.110.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-sample-abap-employees" -- "@abaplint/cli"
+	"@abaplint/transpiler-cli" [label="@abaplint/transpiler-cli (^2.8.27)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"codbex-sample-abap-employees" -- "@abaplint/transpiler-cli"
+	"codbex-uoms" [label="codbex-uoms (0.4.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"performance-tests" [label="performance-tests (unknown)" fillcolor="#ffcc00" shape=circle style=filled]
+	"react-mui-cra" [label="react-mui-cra (0.1.0)" fillcolor="#ffcc00" shape=circle style=filled]
+	"@emotion/react" [label="@emotion/react (^11.13.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- "@emotion/react"
+	"@emotion/styled" [label="@emotion/styled (^11.13.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- "@emotion/styled"
+	"@mui/material" [label="@mui/material (^5.16.4)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- "@mui/material"
+	"@mui/x-date-pickers" [label="@mui/x-date-pickers (^7.11.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- "@mui/x-date-pickers"
+	"@testing-library/jest-dom" [label="@testing-library/jest-dom (^5.17.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- "@testing-library/jest-dom"
+	"@testing-library/react" [label="@testing-library/react (^13.4.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- "@testing-library/react"
+	"@testing-library/user-event" [label="@testing-library/user-event (^13.5.0)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- "@testing-library/user-event"
+	dayjs [label="dayjs (^1.11.12)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- dayjs
+	react [label="react (^18.3.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- react
+	"react-dom" [label="react-dom (^18.3.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- "react-dom"
+	"react-scripts" [label="react-scripts (5.0.1)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- "react-scripts"
+	"web-vitals" [label="web-vitals (^2.1.4)" fillcolor="#99ccff" shape=ellipse style=filled]
+	"react-mui-cra" -- "web-vitals"
+	"ui5-hello-world-mta" [label="ui5-hello-world-mta (0.0.1)" fillcolor="#ffcc00" shape=circle style=filled]
+	size="20,20!"
+}

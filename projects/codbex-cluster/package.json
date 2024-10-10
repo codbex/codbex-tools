@@ -1,0 +1,11 @@
+{
+    "name": "@codbex/cluster-k8s-scripts",
+    "version": "0.1.0",
+    "scripts": {
+        "k8s:get-all-resources-and-limits": "npx ts-node src/getAllResourcesAndLimits.ts",
+        "k8s:get-system-and-codbex-resources-and-limits": "npx ts-node src/getSystemAndCodbexResourcesAndLimits.ts"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.2"
+    }
+}

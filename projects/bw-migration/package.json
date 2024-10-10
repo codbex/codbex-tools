@@ -1,0 +1,25 @@
+{
+    "name": "bw-migration",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "transpile": "rm -rf output && abap_transpile",
+        "unit": "npm run transpile && echo RUNNING && node output/index.mjs && echo OK",
+        "lint": "abaplint",
+        "web": "npm run lint && npm run transpile && node web.mjs",
+        "file": "npm run lint && npm run transpile && node file.mjs",
+        "connect": "npm run lint && npm run transpile && node connect.mjs",
+        "test": "npm run lint && npm run unit"
+    },
+    "devDependencies": {
+        "@abaplint/cli": "^2.102.46",
+        "@abaplint/database-snowflake": "^2.7.96",
+        "@abaplint/database-sqlite": "^2.7.96",
+        "@abaplint/runtime": "^2.7.100",
+        "express": "^4.18.2",
+        "@abaplint/transpiler-cli": "^2.7.100",
+        "dotenv": "^16.3.1"
+    },
+    "author": "",
+    "license": "ISC"
+}

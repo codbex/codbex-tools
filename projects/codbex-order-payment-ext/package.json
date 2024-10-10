@@ -1,0 +1,11 @@
+{
+    "name": "@codbex/codbex-order-payment-ext",
+    "version": "0.1.0",
+    "repository": {
+        "url": "https://github.com/codbex/codbex-order-payment-ext.git",
+        "type": "git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "@codbex/codbex-contracts",
+    "version": "0.3.0",
+    "repository": {
+        "url": "https://github.com/codbex/codbex-contracts.git",
+        "type": "git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "@codbex/codbex-companies": "0.4.0"
+    }
+}

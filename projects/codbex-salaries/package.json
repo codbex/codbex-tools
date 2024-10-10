@@ -1,0 +1,10 @@
+{
+    "name": "codbex/codbex-salaries",
+    "repository": {
+        "url": "https://github.com/codbex/codbex-salaries.git",
+        "type": "git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}

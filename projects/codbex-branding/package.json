@@ -1,0 +1,11 @@
+{
+    "name": "@codbex/ide-branding",
+    "version": "0.1.0",
+    "repository": {
+        "url": "https://github.com/codbex/codbex-branding.git",
+        "type": "git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "@codbex/codbex-hestia-print",
+    "version": "0.2.0",
+    "repository": {
+        "url": "https://github.com/codbex/codbex-hestia-print.git",
+        "type": "git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}

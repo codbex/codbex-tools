@@ -1,0 +1,10 @@
+{
+    "name": "codbex/codbex-payroll-payment-ext",
+    "repository": {
+        "url": "https://github.com/codbex/codbex-payroll-payment-ext.git",
+        "type": "git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}

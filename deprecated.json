@@ -1,0 +1,430 @@
+{
+    "buffer": {
+        "latest_version": "^6.0.3",
+        "repos_with_deprecated": []
+    },
+    "@abaplint/runtime": {
+        "latest_version": "^2.8.27",
+        "repos_with_deprecated": [
+            {
+                "repo": "codbex-kronos",
+                "actual_version": "^2.10.9",
+                "latest_version": "^2.8.27"
+            },
+            {
+                "repo": "abap-samples",
+                "actual_version": "^2.10.9",
+                "latest_version": "^2.8.27"
+            }
+        ]
+    },
+    "@abaplint/cli": {
+        "latest_version": "^2.112.17",
+        "repos_with_deprecated": [
+            {
+                "repo": "codbex-sample-abap-employees",
+                "actual_version": "^2.110.1",
+                "latest_version": "^2.112.17"
+            }
+        ]
+    },
+    "@abaplint/transpiler-cli": {
+        "latest_version": "^2.8.27",
+        "repos_with_deprecated": [
+            {
+                "repo": "codbex-kronos",
+                "actual_version": "^2.10.9",
+                "latest_version": "^2.8.27"
+            },
+            {
+                "repo": "abap-samples",
+                "actual_version": "^2.10.9",
+                "latest_version": "^2.8.27"
+            }
+        ]
+    },
+    "@codbex/codbex-products": {
+        "latest_version": "0.5.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-partners": {
+        "latest_version": "0.4.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-currencies": {
+        "latest_version": "0.3.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-uoms": {
+        "latest_version": "0.4.0",
+        "repos_with_deprecated": [
+            {
+                "repo": "codbex-products",
+                "actual_version": "0.3.0",
+                "latest_version": "0.4.0"
+            }
+        ]
+    },
+    "@codbex/codbex-countries": {
+        "latest_version": "0.3.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-companies": {
+        "latest_version": "0.4.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-methods": {
+        "latest_version": "0.3.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-employees": {
+        "latest_version": "0.4.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-payments": {
+        "latest_version": "0.5.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-cities": {
+        "latest_version": "0.3.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-number-generator": {
+        "latest_version": "0.3.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-orders": {
+        "latest_version": "0.5.0",
+        "repos_with_deprecated": [
+            {
+                "repo": "codbex-hermes",
+                "actual_version": "0.2.0",
+                "latest_version": "0.5.0"
+            }
+        ]
+    },
+    "@codbex/codbex-industries": {
+        "latest_version": "0.2.0",
+        "repos_with_deprecated": []
+    },
+    "@amcharts/amcharts4": {
+        "latest_version": "^4.10.12",
+        "repos_with_deprecated": []
+    },
+    "@mdi/font": {
+        "latest_version": "5.9.55",
+        "repos_with_deprecated": []
+    },
+    "@v-charts2/heatmap": {
+        "latest_version": "^1.0.1",
+        "repos_with_deprecated": []
+    },
+    "amcharts": {
+        "latest_version": "^3.14.5",
+        "repos_with_deprecated": []
+    },
+    "apexcharts": {
+        "latest_version": "^3.22.3",
+        "repos_with_deprecated": []
+    },
+    "autoprefixer": {
+        "latest_version": "10.4.5",
+        "repos_with_deprecated": []
+    },
+    "axios": {
+        "latest_version": "^0.27.2",
+        "repos_with_deprecated": []
+    },
+    "chart.js": {
+        "latest_version": "^3.7.1",
+        "repos_with_deprecated": []
+    },
+    "chartjs-plugin-datalabels": {
+        "latest_version": "^2.1.0",
+        "repos_with_deprecated": []
+    },
+    "core-js": {
+        "latest_version": "^3.8.3",
+        "repos_with_deprecated": []
+    },
+    "d3": {
+        "latest_version": "^7.6.1",
+        "repos_with_deprecated": []
+    },
+    "date-format-parse": {
+        "latest_version": "^0.2.7",
+        "repos_with_deprecated": []
+    },
+    "echarts": {
+        "latest_version": "4.1.0",
+        "repos_with_deprecated": []
+    },
+    "git-describe": {
+        "latest_version": "^4.1.1",
+        "repos_with_deprecated": []
+    },
+    "leaflet": {
+        "latest_version": "^1.8.0",
+        "repos_with_deprecated": []
+    },
+    "leaflet-extra-markers": {
+        "latest_version": "^1.2.1",
+        "repos_with_deprecated": []
+    },
+    "leaflet.heat": {
+        "latest_version": "^0.2.0",
+        "repos_with_deprecated": []
+    },
+    "leaflet.icon.glyph": {
+        "latest_version": "^0.3.0",
+        "repos_with_deprecated": []
+    },
+    "moment": {
+        "latest_version": "^2.29.4",
+        "repos_with_deprecated": []
+    },
+    "raw-loader": {
+        "latest_version": "^4.0.2",
+        "repos_with_deprecated": []
+    },
+    "roboto-fontface": {
+        "latest_version": "*",
+        "repos_with_deprecated": []
+    },
+    "stream": {
+        "latest_version": "^0.0.2",
+        "repos_with_deprecated": []
+    },
+    "v-charts": {
+        "latest_version": "1.19.0",
+        "repos_with_deprecated": []
+    },
+    "vue": {
+        "latest_version": "^2.6.14",
+        "repos_with_deprecated": []
+    },
+    "vue-2-dropdown": {
+        "latest_version": "^1.0.9",
+        "repos_with_deprecated": []
+    },
+    "vue-apexcharts": {
+        "latest_version": "1.6.0",
+        "repos_with_deprecated": []
+    },
+    "vue-chartjs": {
+        "latest_version": "^4.1.0",
+        "repos_with_deprecated": []
+    },
+    "vue-date-dropdown": {
+        "latest_version": "^1.0.5",
+        "repos_with_deprecated": []
+    },
+    "vue-datepicker-ui": {
+        "latest_version": "^2.3.0",
+        "repos_with_deprecated": []
+    },
+    "vue-dropdowns": {
+        "latest_version": "^1.1.2",
+        "repos_with_deprecated": []
+    },
+    "vue-echarts": {
+        "latest_version": "4.1.0",
+        "repos_with_deprecated": []
+    },
+    "vue-heatmapjs": {
+        "latest_version": "^1.5.0-0",
+        "repos_with_deprecated": []
+    },
+    "vue-mc": {
+        "latest_version": "^0.6.0",
+        "repos_with_deprecated": []
+    },
+    "vue-moment": {
+        "latest_version": "^4.1.0",
+        "repos_with_deprecated": []
+    },
+    "vue-native-websocket": {
+        "latest_version": "^2.0.15",
+        "repos_with_deprecated": []
+    },
+    "vue-router": {
+        "latest_version": "^3.5.1",
+        "repos_with_deprecated": []
+    },
+    "vue-simple-search-dropdown": {
+        "latest_version": "^1.0.1",
+        "repos_with_deprecated": []
+    },
+    "vue-slim-stackedbar": {
+        "latest_version": "^0.1.9",
+        "repos_with_deprecated": []
+    },
+    "vue-tables-2": {
+        "latest_version": "^2.3.5",
+        "repos_with_deprecated": []
+    },
+    "vue-tour": {
+        "latest_version": "^2.0.0",
+        "repos_with_deprecated": []
+    },
+    "vue2-datepicker": {
+        "latest_version": "^3.11.0",
+        "repos_with_deprecated": []
+    },
+    "vue2-daterange-picker": {
+        "latest_version": "^0.6.8",
+        "repos_with_deprecated": []
+    },
+    "vue2-leaflet": {
+        "latest_version": "^2.7.1",
+        "repos_with_deprecated": []
+    },
+    "vue2-leaflet-draw-toolbar": {
+        "latest_version": "^0.1.1",
+        "repos_with_deprecated": []
+    },
+    "vuetify": {
+        "latest_version": "^2.6.0",
+        "repos_with_deprecated": []
+    },
+    "vuetify-confirm": {
+        "latest_version": "^2.0.6",
+        "repos_with_deprecated": []
+    },
+    "vuetify-upload-button": {
+        "latest_version": "^2.0.2",
+        "repos_with_deprecated": []
+    },
+    "vuex": {
+        "latest_version": "^3.6.2",
+        "repos_with_deprecated": []
+    },
+    "xml-js": {
+        "latest_version": "^1.6.11",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-hestia": {
+        "latest_version": "0.3.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-inventory": {
+        "latest_version": "0.5.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-invoices": {
+        "latest_version": "0.5.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-order-inventory-ext": {
+        "latest_version": "0.3.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-order-invoice-ext": {
+        "latest_version": "0.3.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-invoice-inventory-ext": {
+        "latest_version": "0.2.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-payment-invoice-ext": {
+        "latest_version": "0.1.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-payment-order-ext": {
+        "latest_version": "0.1.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-order-payment-ext": {
+        "latest_version": "0.1.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-hestia-print": {
+        "latest_version": "0.2.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/ide-branding": {
+        "latest_version": "0.1.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-hestia-data-sample": {
+        "latest_version": "0.3.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-hermes": {
+        "latest_version": "0.1.2",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-orders-data": {
+        "latest_version": "0.2.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-hermes-data-sample": {
+        "latest_version": "0.1.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-opportunities": {
+        "latest_version": "0.1.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-opportunities-data": {
+        "latest_version": "0.1.0",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-contracts": {
+        "latest_version": "0.1.1",
+        "repos_with_deprecated": []
+    },
+    "@codbex/codbex-contracts-data": {
+        "latest_version": "0.1.1",
+        "repos_with_deprecated": []
+    },
+    "@emotion/react": {
+        "latest_version": "^11.13.0",
+        "repos_with_deprecated": []
+    },
+    "@emotion/styled": {
+        "latest_version": "^11.13.0",
+        "repos_with_deprecated": []
+    },
+    "@mui/material": {
+        "latest_version": "^5.16.4",
+        "repos_with_deprecated": []
+    },
+    "@mui/x-date-pickers": {
+        "latest_version": "^7.11.0",
+        "repos_with_deprecated": []
+    },
+    "@testing-library/jest-dom": {
+        "latest_version": "^5.17.0",
+        "repos_with_deprecated": []
+    },
+    "@testing-library/react": {
+        "latest_version": "^13.4.0",
+        "repos_with_deprecated": []
+    },
+    "@testing-library/user-event": {
+        "latest_version": "^13.5.0",
+        "repos_with_deprecated": []
+    },
+    "dayjs": {
+        "latest_version": "^1.11.12",
+        "repos_with_deprecated": []
+    },
+    "react": {
+        "latest_version": "^18.3.1",
+        "repos_with_deprecated": []
+    },
+    "react-dom": {
+        "latest_version": "^18.3.1",
+        "repos_with_deprecated": []
+    },
+    "react-scripts": {
+        "latest_version": "5.0.1",
+        "repos_with_deprecated": []
+    },
+    "web-vitals": {
+        "latest_version": "^2.1.4",
+        "repos_with_deprecated": []
+    }
+}

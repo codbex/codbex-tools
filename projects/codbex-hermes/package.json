@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "login": "npm login --scope=@codbex --auth-type=legacy --registry=https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "@codbex/codbex-hermes": "0.1.2",
+        "@codbex/codbex-orders": "0.2.0",
+        "@codbex/codbex-orders-data": "0.2.0",
+        "@codbex/ide-branding": "0.1.0",
+        "@codbex/codbex-hermes-data-sample": "0.1.0",
+        "@codbex/codbex-opportunities": "0.1.0",
+        "@codbex/codbex-opportunities-data": "0.1.0",
+        "@codbex/codbex-contracts": "0.1.1",
+        "@codbex/codbex-contracts-data": "0.1.1"
+    }
+}

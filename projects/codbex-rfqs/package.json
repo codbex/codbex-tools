@@ -1,0 +1,17 @@
+{
+    "name": "@codbex/codbex-rfqs",
+    "version": "0.3.0",
+    "repository": {
+        "url": "https://github.com/codbex/codbex-rfqs.git",
+        "type": "git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "@codbex/codbex-products": "0.5.0",
+        "@codbex/codbex-partners": "0.4.0",
+        "@codbex/codbex-currencies": "0.3.0",
+        "@codbex/codbex-uoms": "0.4.0"
+    }
+}

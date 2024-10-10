@@ -1,0 +1,206 @@
+{
+    "codbex-hermes-dashboard": {
+        "name": "@codbex/codbex-hermes",
+        "version": "0.1.2"
+    },
+    "codbex-countries": {
+        "name": "@codbex/codbex-countries",
+        "version": "0.3.0"
+    },
+    "codbex-industries": {
+        "name": "@codbex/codbex-industries",
+        "version": "0.2.0"
+    },
+    "codbex-currencies": {
+        "name": "@codbex/codbex-currencies",
+        "version": "0.3.0"
+    },
+    "codbex-uoms": {
+        "name": "@codbex/codbex-uoms",
+        "version": "0.4.0"
+    },
+    "codbex-hestia-dashboard": {
+        "name": "@codbex/codbex-hestia",
+        "version": "0.3.0"
+    },
+    "codbex-kronos": {
+        "name": "kronos-api",
+        "version": "1.0.0"
+    },
+    "ui5-hello-world-mta": {
+        "name": "helloworld",
+        "version": "0.0.1"
+    },
+    "codbex-bids": {
+        "name": "@codbex/codbex-bids",
+        "version": "0.3.0"
+    },
+    "codbex-partners": {
+        "name": "@codbex/codbex-partners",
+        "version": "0.4.0"
+    },
+    "codbex-rfqs": {
+        "name": "@codbex/codbex-rfqs",
+        "version": "0.3.0"
+    },
+    "codbex-salaries": {
+        "name": "codbex/codbex-salaries",
+        "version": "unknown"
+    },
+    "bw-migration": {
+        "name": "bw-migration",
+        "version": "1.0.0"
+    },
+    "aws-cdk": {
+        "name": "@codbex/aws-cdk-monorepo",
+        "version": "0.1.3"
+    },
+    "codbex-employees": {
+        "name": "@codbex/codbex-employees",
+        "version": "0.4.0"
+    },
+    "codbex-athena-dashboard": {
+        "name": "@codbex/codbex-athena",
+        "version": "0.1.0"
+    },
+    "performance-tests": {
+        "name": "performance-tests",
+        "version": "unknown"
+    },
+    "codbex-products": {
+        "name": "@codbex/codbex-products",
+        "version": "0.5.0"
+    },
+    "codbex-invoices": {
+        "name": "@codbex/codbex-invoices",
+        "version": "0.5.0"
+    },
+    "codbex-opportunities": {
+        "name": "@codbex/codbex-opportunities",
+        "version": "0.3.0"
+    },
+    "codbex-orders": {
+        "name": "@codbex/codbex-orders",
+        "version": "0.5.0"
+    },
+    "codbex-number-generator": {
+        "name": "@codbex/codbex-number-generator",
+        "version": "0.3.0"
+    },
+    "codbex-companies": {
+        "name": "@codbex/codbex-companies",
+        "version": "0.4.0"
+    },
+    "codbex-order-invoice-ext": {
+        "name": "@codbex/codbex-order-invoice-ext",
+        "version": "0.3.0"
+    },
+    "codbex-cities": {
+        "name": "@codbex/codbex-cities",
+        "version": "0.3.0"
+    },
+    "codbex-methods": {
+        "name": "@codbex/codbex-methods",
+        "version": "0.3.0"
+    },
+    "audit": {
+        "name": "cashreg",
+        "version": "0.1.0"
+    },
+    "codbex-cluster": {
+        "name": "@codbex/cluster-k8s-scripts",
+        "version": "0.1.0"
+    },
+    "codbex-order-inventory-ext": {
+        "name": "@codbex/codbex-order-inventory-ext",
+        "version": "0.3.0"
+    },
+    "codbex-hestia-data-sample": {
+        "name": "@codbex/codbex-hestia-data-sample",
+        "version": "0.3.0"
+    },
+    "codbex-hermes-data-sample": {
+        "name": "@codbex/codbex-hermes-data-sample",
+        "version": "0.1.0"
+    },
+    "codbex-sample-abap-employees": {
+        "name": "my-first-abap-project",
+        "version": "1.0.0"
+    },
+    "codbex-hestia": {
+        "name": "codbex-hestia",
+        "version": "unknown"
+    },
+    "codbex-branding": {
+        "name": "@codbex/ide-branding",
+        "version": "0.1.0"
+    },
+    "codbex-hermes": {
+        "name": "codbex-hermes",
+        "version": "unknown"
+    },
+    "codbex-number-generator-data": {
+        "name": "@codbex/codbex-number-generator-data",
+        "version": "0.2.0"
+    },
+    "react-mui-cra": {
+        "name": "my-mui-app",
+        "version": "0.1.0"
+    },
+    "codbex-invoice-inventory-ext": {
+        "name": "@codbex/codbex-invoice-inventory-ext",
+        "version": "0.2.0"
+    },
+    "codbex-order-payment-ext": {
+        "name": "@codbex/codbex-order-payment-ext",
+        "version": "0.1.0"
+    },
+    "codbex-accounts": {
+        "name": "@codbex/codbex-accounts",
+        "version": "0.2.0"
+    },
+    "codbex-contracts": {
+        "name": "@codbex/codbex-contracts",
+        "version": "0.3.0"
+    },
+    "codbex-hestia-print": {
+        "name": "@codbex/codbex-hestia-print",
+        "version": "0.2.0"
+    },
+    "codbex-inventory": {
+        "name": "@codbex/codbex-inventory",
+        "version": "0.5.0"
+    },
+    "abap-samples": {
+        "name": "abap-string-util",
+        "version": "1.0.0"
+    },
+    "codbex-hestia-randddesign": {
+        "name": "@codbex/codbex-hestia-randddesign",
+        "version": "0.1.0"
+    },
+    "codbex-payment-order-ext": {
+        "name": "@codbex/codbex-payment-order-ext",
+        "version": "0.1.0"
+    },
+    "codbex-payment-invoice-ext": {
+        "name": "@codbex/codbex-payment-invoice-ext",
+        "version": "0.1.0"
+    },
+    "codbex-appointments": {
+        "name": "@codbex/codbex-appointments",
+        "version": "0.3.0"
+    },
+    "codbex-athena-data-sample": {
+        "name": "@codbex/codbex-athena-data-sample",
+        "version": "0.3.0"
+    },
+    "codbex-payroll-payment-ext": {
+        "name": "codbex/codbex-payroll-payment-ext",
+        "version": "unknown"
+    },
+    "angular.js": {
+        "name": "angular",
+        "version": "unknown"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "@codbex/codbex-cities",
+    "version": "0.3.0",
+    "repository": {
+        "url": "https://github.com/codbex/codbex-cities.git",
+        "type": "git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "@codbex/codbex-countries": "0.3.0"
+    }
+}

@@ -1,0 +1,804 @@
+{
+    "codbex-hermes-dashboard": {
+        "actual_version": "0.1.2",
+        "dependencies": {}
+    },
+    "codbex-countries": {
+        "actual_version": "0.3.0",
+        "dependencies": {}
+    },
+    "codbex-industries": {
+        "actual_version": "0.2.0",
+        "dependencies": {}
+    },
+    "codbex-currencies": {
+        "actual_version": "0.3.0",
+        "dependencies": {}
+    },
+    "codbex-uoms": {
+        "actual_version": "0.4.0",
+        "dependencies": {}
+    },
+    "codbex-hestia-dashboard": {
+        "actual_version": "0.3.0",
+        "dependencies": {}
+    },
+    "codbex-kronos": {
+        "actual_version": "1.0.0",
+        "dependencies": {
+            "buffer": {
+                "actual_version": "^6.0.3",
+                "latest_version": "unknown"
+            },
+            "@abaplint/runtime": {
+                "actual_version": "^2.10.9",
+                "latest_version": "unknown"
+            },
+            "@abaplint/cli": {
+                "actual_version": "^2.112.17",
+                "latest_version": "unknown"
+            },
+            "@abaplint/transpiler-cli": {
+                "actual_version": "^2.10.9",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "ui5-hello-world-mta": {
+        "actual_version": "0.0.1",
+        "dependencies": {}
+    },
+    "codbex-bids": {
+        "actual_version": "0.3.0",
+        "dependencies": {
+            "@codbex/codbex-products": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-partners": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-currencies": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-uoms": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-countries": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-partners": {
+        "actual_version": "0.4.0",
+        "dependencies": {}
+    },
+    "codbex-rfqs": {
+        "actual_version": "0.3.0",
+        "dependencies": {
+            "@codbex/codbex-products": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-partners": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-currencies": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-uoms": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-salaries": {
+        "actual_version": "unknown",
+        "dependencies": {}
+    },
+    "bw-migration": {
+        "actual_version": "1.0.0",
+        "dependencies": {}
+    },
+    "aws-cdk": {
+        "actual_version": "0.1.3",
+        "dependencies": {}
+    },
+    "codbex-employees": {
+        "actual_version": "0.4.0",
+        "dependencies": {}
+    },
+    "codbex-athena-dashboard": {
+        "actual_version": "0.1.0",
+        "dependencies": {}
+    },
+    "performance-tests": {
+        "actual_version": "unknown",
+        "dependencies": {}
+    },
+    "codbex-products": {
+        "actual_version": "0.5.0",
+        "dependencies": {
+            "@codbex/codbex-uoms": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-companies": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-partners": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-invoices": {
+        "actual_version": "0.5.0",
+        "dependencies": {
+            "@codbex/codbex-countries": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-companies": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-currencies": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-uoms": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-partners": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-methods": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-employees": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-products": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-payments": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-cities": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-number-generator": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-opportunities": {
+        "actual_version": "0.3.0",
+        "dependencies": {
+            "@codbex/codbex-products": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-partners": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-employees": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-currencies": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-uoms": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-orders": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-industries": {
+                "actual_version": "0.2.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-number-generator": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-orders": {
+        "actual_version": "0.5.0",
+        "dependencies": {
+            "@codbex/codbex-products": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-partners": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-employees": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-currencies": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-methods": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-cities": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-payments": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-number-generator": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-number-generator": {
+        "actual_version": "0.3.0",
+        "dependencies": {}
+    },
+    "codbex-companies": {
+        "actual_version": "0.4.0",
+        "dependencies": {
+            "@codbex/codbex-countries": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-cities": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-order-invoice-ext": {
+        "actual_version": "0.3.0",
+        "dependencies": {}
+    },
+    "codbex-cities": {
+        "actual_version": "0.3.0",
+        "dependencies": {
+            "@codbex/codbex-countries": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-methods": {
+        "actual_version": "0.3.0",
+        "dependencies": {}
+    },
+    "audit": {
+        "actual_version": "0.1.0",
+        "dependencies": {
+            "@amcharts/amcharts4": {
+                "actual_version": "^4.10.12",
+                "latest_version": "unknown"
+            },
+            "@mdi/font": {
+                "actual_version": "5.9.55",
+                "latest_version": "unknown"
+            },
+            "@v-charts2/heatmap": {
+                "actual_version": "^1.0.1",
+                "latest_version": "unknown"
+            },
+            "amcharts": {
+                "actual_version": "^3.14.5",
+                "latest_version": "unknown"
+            },
+            "apexcharts": {
+                "actual_version": "^3.22.3",
+                "latest_version": "unknown"
+            },
+            "autoprefixer": {
+                "actual_version": "10.4.5",
+                "latest_version": "unknown"
+            },
+            "axios": {
+                "actual_version": "^0.27.2",
+                "latest_version": "unknown"
+            },
+            "chart.js": {
+                "actual_version": "^3.7.1",
+                "latest_version": "unknown"
+            },
+            "chartjs-plugin-datalabels": {
+                "actual_version": "^2.1.0",
+                "latest_version": "unknown"
+            },
+            "core-js": {
+                "actual_version": "^3.8.3",
+                "latest_version": "unknown"
+            },
+            "d3": {
+                "actual_version": "^7.6.1",
+                "latest_version": "unknown"
+            },
+            "date-format-parse": {
+                "actual_version": "^0.2.7",
+                "latest_version": "unknown"
+            },
+            "echarts": {
+                "actual_version": "4.1.0",
+                "latest_version": "unknown"
+            },
+            "git-describe": {
+                "actual_version": "^4.1.1",
+                "latest_version": "unknown"
+            },
+            "leaflet": {
+                "actual_version": "^1.8.0",
+                "latest_version": "unknown"
+            },
+            "leaflet-extra-markers": {
+                "actual_version": "^1.2.1",
+                "latest_version": "unknown"
+            },
+            "leaflet.heat": {
+                "actual_version": "^0.2.0",
+                "latest_version": "unknown"
+            },
+            "leaflet.icon.glyph": {
+                "actual_version": "^0.3.0",
+                "latest_version": "unknown"
+            },
+            "moment": {
+                "actual_version": "^2.29.4",
+                "latest_version": "unknown"
+            },
+            "raw-loader": {
+                "actual_version": "^4.0.2",
+                "latest_version": "unknown"
+            },
+            "roboto-fontface": {
+                "actual_version": "*",
+                "latest_version": "unknown"
+            },
+            "stream": {
+                "actual_version": "^0.0.2",
+                "latest_version": "unknown"
+            },
+            "v-charts": {
+                "actual_version": "1.19.0",
+                "latest_version": "unknown"
+            },
+            "vue": {
+                "actual_version": "^2.6.14",
+                "latest_version": "unknown"
+            },
+            "vue-2-dropdown": {
+                "actual_version": "^1.0.9",
+                "latest_version": "unknown"
+            },
+            "vue-apexcharts": {
+                "actual_version": "1.6.0",
+                "latest_version": "unknown"
+            },
+            "vue-chartjs": {
+                "actual_version": "^4.1.0",
+                "latest_version": "unknown"
+            },
+            "vue-date-dropdown": {
+                "actual_version": "^1.0.5",
+                "latest_version": "unknown"
+            },
+            "vue-datepicker-ui": {
+                "actual_version": "^2.3.0",
+                "latest_version": "unknown"
+            },
+            "vue-dropdowns": {
+                "actual_version": "^1.1.2",
+                "latest_version": "unknown"
+            },
+            "vue-echarts": {
+                "actual_version": "4.1.0",
+                "latest_version": "unknown"
+            },
+            "vue-heatmapjs": {
+                "actual_version": "^1.5.0-0",
+                "latest_version": "unknown"
+            },
+            "vue-mc": {
+                "actual_version": "^0.6.0",
+                "latest_version": "unknown"
+            },
+            "vue-moment": {
+                "actual_version": "^4.1.0",
+                "latest_version": "unknown"
+            },
+            "vue-native-websocket": {
+                "actual_version": "^2.0.15",
+                "latest_version": "unknown"
+            },
+            "vue-router": {
+                "actual_version": "^3.5.1",
+                "latest_version": "unknown"
+            },
+            "vue-simple-search-dropdown": {
+                "actual_version": "^1.0.1",
+                "latest_version": "unknown"
+            },
+            "vue-slim-stackedbar": {
+                "actual_version": "^0.1.9",
+                "latest_version": "unknown"
+            },
+            "vue-tables-2": {
+                "actual_version": "^2.3.5",
+                "latest_version": "unknown"
+            },
+            "vue-tour": {
+                "actual_version": "^2.0.0",
+                "latest_version": "unknown"
+            },
+            "vue2-datepicker": {
+                "actual_version": "^3.11.0",
+                "latest_version": "unknown"
+            },
+            "vue2-daterange-picker": {
+                "actual_version": "^0.6.8",
+                "latest_version": "unknown"
+            },
+            "vue2-leaflet": {
+                "actual_version": "^2.7.1",
+                "latest_version": "unknown"
+            },
+            "vue2-leaflet-draw-toolbar": {
+                "actual_version": "^0.1.1",
+                "latest_version": "unknown"
+            },
+            "vuetify": {
+                "actual_version": "^2.6.0",
+                "latest_version": "unknown"
+            },
+            "vuetify-confirm": {
+                "actual_version": "^2.0.6",
+                "latest_version": "unknown"
+            },
+            "vuetify-upload-button": {
+                "actual_version": "^2.0.2",
+                "latest_version": "unknown"
+            },
+            "vuex": {
+                "actual_version": "^3.6.2",
+                "latest_version": "unknown"
+            },
+            "xml-js": {
+                "actual_version": "^1.6.11",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-cluster": {
+        "actual_version": "0.1.0",
+        "dependencies": {}
+    },
+    "codbex-order-inventory-ext": {
+        "actual_version": "0.3.0",
+        "dependencies": {}
+    },
+    "codbex-hestia-data-sample": {
+        "actual_version": "0.3.0",
+        "dependencies": {}
+    },
+    "codbex-hermes-data-sample": {
+        "actual_version": "0.1.0",
+        "dependencies": {}
+    },
+    "codbex-sample-abap-employees": {
+        "actual_version": "1.0.0",
+        "dependencies": {
+            "buffer": {
+                "actual_version": "^6.0.3",
+                "latest_version": "unknown"
+            },
+            "@abaplint/runtime": {
+                "actual_version": "^2.8.27",
+                "latest_version": "unknown"
+            },
+            "@abaplint/cli": {
+                "actual_version": "^2.110.1",
+                "latest_version": "unknown"
+            },
+            "@abaplint/transpiler-cli": {
+                "actual_version": "^2.8.27",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-hestia": {
+        "actual_version": "unknown",
+        "dependencies": {
+            "@codbex/codbex-hestia": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-inventory": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-orders": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-invoices": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-products": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-order-inventory-ext": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-order-invoice-ext": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-invoice-inventory-ext": {
+                "actual_version": "0.2.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-payment-invoice-ext": {
+                "actual_version": "0.1.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-payment-order-ext": {
+                "actual_version": "0.1.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-order-payment-ext": {
+                "actual_version": "0.1.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-hestia-print": {
+                "actual_version": "0.2.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/ide-branding": {
+                "actual_version": "0.1.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-hestia-data-sample": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-branding": {
+        "actual_version": "0.1.0",
+        "dependencies": {}
+    },
+    "codbex-hermes": {
+        "actual_version": "unknown",
+        "dependencies": {
+            "@codbex/codbex-hermes": {
+                "actual_version": "0.1.2",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-orders": {
+                "actual_version": "0.2.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-orders-data": {
+                "actual_version": "0.2.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/ide-branding": {
+                "actual_version": "0.1.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-hermes-data-sample": {
+                "actual_version": "0.1.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-opportunities": {
+                "actual_version": "0.1.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-opportunities-data": {
+                "actual_version": "0.1.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-contracts": {
+                "actual_version": "0.1.1",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-contracts-data": {
+                "actual_version": "0.1.1",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-number-generator-data": {
+        "actual_version": "0.2.0",
+        "dependencies": {}
+    },
+    "react-mui-cra": {
+        "actual_version": "0.1.0",
+        "dependencies": {
+            "@emotion/react": {
+                "actual_version": "^11.13.0",
+                "latest_version": "unknown"
+            },
+            "@emotion/styled": {
+                "actual_version": "^11.13.0",
+                "latest_version": "unknown"
+            },
+            "@mui/material": {
+                "actual_version": "^5.16.4",
+                "latest_version": "unknown"
+            },
+            "@mui/x-date-pickers": {
+                "actual_version": "^7.11.0",
+                "latest_version": "unknown"
+            },
+            "@testing-library/jest-dom": {
+                "actual_version": "^5.17.0",
+                "latest_version": "unknown"
+            },
+            "@testing-library/react": {
+                "actual_version": "^13.4.0",
+                "latest_version": "unknown"
+            },
+            "@testing-library/user-event": {
+                "actual_version": "^13.5.0",
+                "latest_version": "unknown"
+            },
+            "dayjs": {
+                "actual_version": "^1.11.12",
+                "latest_version": "unknown"
+            },
+            "react": {
+                "actual_version": "^18.3.1",
+                "latest_version": "unknown"
+            },
+            "react-dom": {
+                "actual_version": "^18.3.1",
+                "latest_version": "unknown"
+            },
+            "react-scripts": {
+                "actual_version": "5.0.1",
+                "latest_version": "unknown"
+            },
+            "web-vitals": {
+                "actual_version": "^2.1.4",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-invoice-inventory-ext": {
+        "actual_version": "0.2.0",
+        "dependencies": {}
+    },
+    "codbex-order-payment-ext": {
+        "actual_version": "0.1.0",
+        "dependencies": {}
+    },
+    "codbex-accounts": {
+        "actual_version": "0.2.0",
+        "dependencies": {}
+    },
+    "codbex-contracts": {
+        "actual_version": "0.3.0",
+        "dependencies": {
+            "@codbex/codbex-companies": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-hestia-print": {
+        "actual_version": "0.2.0",
+        "dependencies": {}
+    },
+    "codbex-inventory": {
+        "actual_version": "0.5.0",
+        "dependencies": {
+            "@codbex/codbex-cities": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-countries": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-companies": {
+                "actual_version": "0.4.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-products": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            },
+            "@codbex/codbex-currencies": {
+                "actual_version": "0.3.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "abap-samples": {
+        "actual_version": "1.0.0",
+        "dependencies": {
+            "buffer": {
+                "actual_version": "^6.0.3",
+                "latest_version": "unknown"
+            },
+            "@abaplint/runtime": {
+                "actual_version": "^2.10.9",
+                "latest_version": "unknown"
+            },
+            "@abaplint/cli": {
+                "actual_version": "^2.112.17",
+                "latest_version": "unknown"
+            },
+            "@abaplint/transpiler-cli": {
+                "actual_version": "^2.10.9",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-hestia-randddesign": {
+        "actual_version": "0.1.0",
+        "dependencies": {}
+    },
+    "codbex-payment-order-ext": {
+        "actual_version": "0.1.0",
+        "dependencies": {}
+    },
+    "codbex-payment-invoice-ext": {
+        "actual_version": "0.1.0",
+        "dependencies": {}
+    },
+    "codbex-appointments": {
+        "actual_version": "0.3.0",
+        "dependencies": {
+            "@codbex/codbex-orders": {
+                "actual_version": "0.5.0",
+                "latest_version": "unknown"
+            }
+        }
+    },
+    "codbex-athena-data-sample": {
+        "actual_version": "0.3.0",
+        "dependencies": {}
+    },
+    "codbex-payroll-payment-ext": {
+        "actual_version": "unknown",
+        "dependencies": {}
+    },
+    "angular.js": {
+        "actual_version": "unknown",
+        "dependencies": {}
+    }
+}
